@@ -4,7 +4,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Python versions](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue)](https://www.python.org/downloads/)
-[![Build Status](https://img.shields.io/github/v/tag/APF20/pyget)](https://github.com/APF20/pyget/releases)
 [![Build Status](https://img.shields.io/github/v/release/APF20/pyget)](https://github.com/APF20/pyget/releases)
 [![CI](https://github.com/APF20/pyget/actions/workflows/ci.yml/badge.svg)](https://github.com/APF20/pyget/actions/workflows/ci.yml)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
