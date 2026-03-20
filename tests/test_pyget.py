@@ -83,7 +83,7 @@ class HTTPTest(unittest.IsolatedAsyncioTestCase):
             mocks['_auth_headers'].assert_called_once_with(expected['signature'], expected['timestamp'])
 
     async def test_submit_request(self):
-        url = 'https://api.bitget.com'
+        url = REST_URL
         mock_path = '/api/mix/v1/market/contracts'
         mock_query = {'symbol': 'BTCUSDT'}
         headers = {'Content-Type': 'application/json', 'Accept': 'application/json'}
