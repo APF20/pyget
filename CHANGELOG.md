@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.2.2] - 2026-03-17
 
+### Changelog Update (2026-03-20)
+
+- Tests: added unittests for pyget REST and WebSocket APIs (tests/test_pyget.py).
+
 ### Added
 
 - The `pyget` module.
