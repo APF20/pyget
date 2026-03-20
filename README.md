@@ -3,9 +3,10 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Build Status](https://img.shields.io/pypi/pyversions/pyget)](https://www.python.org/downloads/)
-[![Build Status](https://img.shields.io/pypi/v/pyget)](https://pypi.org/project/pyget/)
-[![Build Status](https://travis-ci.org/apf20/pyget.svg?branch=master)](https://travis-ci.org/apf20/pyget)
+[![Python versions](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue)](https://www.python.org/downloads/)
+[![Build Status](https://img.shields.io/github/v/tag/APF20/pyget)](https://github.com/APF20/pyget/releases)
+[![Build Status](https://img.shields.io/github/v/release/APF20/pyget)](https://github.com/APF20/pyget/releases)
+[![CI](https://github.com/APF20/pyget/actions/workflows/ci.yml/badge.svg)](https://github.com/APF20/pyget/actions/workflows/ci.yml)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 Asyncronous Python3 API connector for Bitget's HTTP and Websockets APIs.
@@ -45,8 +46,15 @@ Feel free to fork this repository, issue reports for any bugs and add pull reque
 improvements and updates to Bitget API changes.
 
 ## Installation
-`pyget` requires Python 3.8 or higher. The module can be installed manually. Pip
+`pyget` requires Python 3.9 or higher. The module can be installed manually. Pypi
 installation support will be considered.
+```
+# Production installation
+pip install .
+
+# Developer/Editable installation
+pip install -e .
+```
 
 ## Usage
 You can retrieve the HTTP and WebSocket classes like so:
