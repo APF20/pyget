@@ -185,7 +185,6 @@ class WebSocketTest(unittest.IsolatedAsyncioTestCase):
         asyncio.run(cls.session.tearDown())
 
     async def ws_callback(msg):
-        print(f'wsCB: {msg}')
         pass
 
     async def test_websocket(self):
